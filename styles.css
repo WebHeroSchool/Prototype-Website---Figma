@@ -11,11 +11,16 @@
   margin-right: 63%
 }
 .header {
+  padding: 40px 0;
   display: flex;
   justify-content: space-between;
 }
 .logo {
-  padding: 40px 0;
+  //padding: 40px 0;
+// font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+width: 190px;
+height:35px;
+background: url('image/logo.svg');
 }
 .menu {
   display: flex;
@@ -28,7 +33,4 @@
 .menu__item:last-child {
   padding-right: 0;
 }
-#first {
-  color: blue;
-  font-weight: bold;
-}
+background: C:/Users/Tosha/Documents/Prototype%20Figma/image/logo.svg('img/logo.svg');
