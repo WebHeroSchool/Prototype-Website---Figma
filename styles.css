@@ -6,10 +6,7 @@
 .logo, .menu {
   display: inline-block;
   border: dashed 1px red;
-}
-.logo {
-  margin-right: 63%
-}
+
 .header {
   padding: 40px 0;
   display: flex;
