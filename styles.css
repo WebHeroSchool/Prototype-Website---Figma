@@ -11,6 +11,7 @@
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 .logo {
   //padding: 40px 0;
@@ -33,6 +34,7 @@ background: url('image/logo.svg');
   }
 .menu__item:hover {
   opacity: .5;
+  font-size: 20px;
 }
 .menu__item:hover:after {
   position: absolute;
@@ -62,4 +64,32 @@ background: url('image/logo.svg');
   height: 3px;
   background: #0056EC;
 }
-background: C:/Users/Tosha/Documents/Prototype%20Figma/image/logo.svg('img/logo.svg');
+.main {
+  padding: 0 63% 100% 0;
+  background: top right no-repeat url('image/frame.svg');
+}
+.main__title {
+  margin: 0 0 40px 0;
+  font: bold 50px/65px pt_serif, arial, helvetica, sans-serif;
+}
+.main__title-text_highlight {
+  background: #ECF3FF;
+}
+.main__subtitle {
+  margin: 0 0 41px 0;
+  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+}
+.main__button {
+display: inline-block;
+font: font: 14px/16px Roboto, arial, helvetica, sans-serif;
+color:#fff;
+padding: 14px 16px;
+background: #0056EC;
+text-decoration: none;
+border-radius: 4px;
+transition: opacity .5s;
+}
+.main__button:hover {
+  opacity: .5;
+  cursor: pointer;
+}
