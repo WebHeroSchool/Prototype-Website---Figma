@@ -92,4 +92,5 @@ transition: opacity .5s;
 .main__button:hover {
   opacity: .5;
   cursor: pointer;
+  font-size: 20px;
 }
