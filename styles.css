@@ -100,6 +100,18 @@ transition: opacity .5s;
   cursor: pointer;
   font-size: 20px;
 }
+
+@media (max-width:1367px) {
+.header {
+  margin-bottom: 700px;
+}
+.logo {
+  margin-left: 75px;
+}
+.menu__item {
+  font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    }
+}
 @media (max-width:768px) {
 .menu {
   display: none;
@@ -201,14 +213,4 @@ transition: opacity .5s;
   visibility: visible;
   left: 0;
 }
-@media (max-width:1367px) {
-.header {
-  margin-bottom: 137px;
-}
-.logo {
-  margin-left: 75px;
-}
-.menu__item {
-  font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
-    }
 }
