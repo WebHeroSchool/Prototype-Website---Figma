@@ -103,14 +103,38 @@ transition: opacity .5s;
 
 @media (max-width:1367px) {
 .header {
-  margin-bottom: 700px;
+  margin-bottom: 91px;
 }
 .logo {
   margin-left: 75px;
 }
+.menu__item:last-child {
+  margin-right: 78px;
+}
 .menu__item {
+  margin-right: 26px;
   font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
     }
+.main {
+  background-size: 47.2%;
+  background-position: top 0px right 77px;
+}
+.main__title {
+  font: bold 50px/65px PT serif;
+  width:434px;
+  margin:-64px 0 40px 77px;
+}
+.main__subtitle {
+  margin: 0 0 39px 75px;
+  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+  width: 367px;
+}
+.main__button {
+font: 14px/16px Roboto, arial, helvetica, sans-serif;
+padding: 14px 17px 14px 10px;
+width:209px;
+margin-left: 75px;
+}
 }
 @media (max-width:768px) {
 .menu {
@@ -144,8 +168,8 @@ transition: opacity .5s;
   display: flex;
   align-items: center;
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 35px;
+  left: 620px;
   width: 26px;
   height: 26px;
   cursor: pointer;
@@ -158,7 +182,7 @@ transition: opacity .5s;
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #616161;
+  background-color: #0056EC;
   transition-duration: .25s
 }
 .menu__btn > span::before {
@@ -212,5 +236,54 @@ transition: opacity .5s;
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
   left: 0;
+}
+}
+@media (max-width:375px) {
+.menu {
+  display: none;
+}
+.header {
+  padding-top: 8px;
+  padding-bottom: 27px;
+  margin-bottom: 0px;
+}
+.logo {
+    margin-left: -7px;
+    width: 36px;
+    height: 35px;
+    background: url('image/small_logo.svg')
+  }
+.main {
+  text-align: center;
+  padding: 74% 0 0;
+  background-size: 97%;
+  background-position: top center;
+}
+.main__title {
+  margin: 48px 0 34px 26px;
+  width: 267px;
+  font: bold 30px/39px PT serif;
+}
+.main__subtitle {
+  margin-left: 21px;
+  font: 500 16px/18px Roboto;
+  width:275px;
+}
+.main__button{
+  font: 500 14px/16px Roboto;
+  width: 209px;
+  height: 44px;
+  margin-left: 0;
+}
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 23px;
+  left: 340px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
 }
 }
