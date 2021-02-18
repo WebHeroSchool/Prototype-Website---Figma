@@ -1,6 +1,6 @@
 .wrapper {
-  margin: auto;
-  width:80%;
+  margin: 0 auto;
+  width: 100%;
   border: dashed 1px red;
 }
 .logo, .menu {
@@ -142,6 +142,33 @@ margin-left: 75px;
   display: none;
 }
 }
+@media (max-width:1025px) {
+.header {
+margin-bottom: 91px;
+  }
+.logo {
+    margin-left: 35px;
+  }
+.menu__item:last-child {
+    margin-right: 38px;
+  }
+.menu {
+    margin-top: 6px;
+    }
+.main {
+      background-size: 50.5%;
+      background-position: top 0px right 43px;
+}
+.main__title {
+  margin-left: 37px;
+}
+.main__subtitle {
+  margin-left: 38px;
+}
+.main__button {
+margin-left: 36px;
+}
+}
 @media (max-width:768px) {
 .menu {
   display: none;
@@ -252,11 +279,12 @@ margin-left: 75px;
   display: none;
 }
 .header {
-  padding-top: 8px;
-  padding-bottom: 38px;
-}
+      padding-top: 8px;
+      padding-bottom: 25px;
+      margin-bottom: 0;
+  }
 .logo {
-    margin-left: -19px;
+    margin-left: 16px;
     margin-top: 5px;
     width: 36px;
     height: 35px;
@@ -266,16 +294,21 @@ margin-left: 75px;
 .main {
   text-align: center;
   padding: 74% 0 0;
-  background-size:90%;
+  margin-top: 7px;
+  background-size:80%;
   background-position: top center;
 }
 .main__title {
-  margin: 21px 0 34px 16px;
+  margin-top: 6px;
+  margin-left: 47px;
+  margin-right: auto;
+  margin-bottom: 33px;
   width: 267px;
   font: bold 30px/39px PT serif;
 }
 .main__subtitle {
-  margin-left: 12px;
+  margin-left: 43px;
+  margin-right: auto;
   font: 500 16px/18px Roboto;
   width:275px;
 }
@@ -283,13 +316,12 @@ margin-left: 75px;
   font: 500 14px/16px Roboto;
   width: 209px;
   height: 44px;
-  margin-left: 0;
-  border-right-width: 0px;
-  border-left-width: 10px;
   padding-left: 14px;
   padding-right: 14px;
+  margin-left: 22px;
+  margin-top: 3px;
+  margin-right: 12px;
 }
-    }
 .menu__btn {
   display: flex;
   align-items: center;
@@ -300,5 +332,33 @@ margin-left: 75px;
   height: 26px;
   cursor: pointer;
   z-index: 1;
+}
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 375px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  padding: 178px 0 80px 37px;
+  background-color: #ECEFF1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  transition-duration: .25s
+}
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 500;
+  text-decoration: none;
+  transition-duration: .25s
 }
 }
