@@ -1,12 +1,10 @@
 .wrapper {
   margin: 0 auto;
-  width: 100%;
-  border: dashed 1px red;
-}
+  width: 80%;
+  }
 .logo, .menu {
   display: inline-block;
-  border: dashed 1px red;
-}
+  }
 .header {
   padding: 30px 0;
   display: flex;
@@ -103,7 +101,25 @@ transition: opacity .5s;
   cursor: pointer;
   font-size: 20px;
 }
-
+@media (max-width:1450px) {
+.main {
+background-size: 50%;
+background-position: top 0px right 77px;
+}
+.main__title {
+  margin: 0 0 34px 0;
+  font: bold 55px/70px  PT serif;
+}
+.main__subtitle {
+  margin: 0 0 38px 0;
+  font: 18px/20px Roboto, arial, helvetica, sans-serif;
+  width: 455px;
+}
+.main__button {
+display: inline-block;
+font: 15px/18px Roboto, arial, helvetica, sans-serif;
+}
+}
 @media (max-width:1367px) {
 .header {
   margin-bottom: 91px;
@@ -142,6 +158,28 @@ margin-left: 75px;
   display: none;
 }
 }
+@media (max-width:1250px) {
+.main {
+    background-size: 46.2%;
+  }
+.main__title {
+  font: 43px/56px;
+}
+.main__subtitle {
+  font: 17px/19px Roboto, arial, helvetica, sans-serif;
+}
+.main__button {
+  font: 12px/14px;
+}
+}
+@media (max-width:1100px) {
+.main {
+background-position: top 0px right 23px;
+}
+.main__title {
+  font: bold 47px/62px PT serif
+}
+}
 @media (max-width:1025px) {
 .header {
 margin-bottom: 91px;
@@ -160,14 +198,23 @@ margin-bottom: 91px;
       background-position: top 0px right 43px;
 }
 .main__title {
-  margin-left: 37px;
+  margin-left: 0;
+  font: bold 45px/60px PT serif;
 }
 .main__subtitle {
-  margin-left: 38px;
+  margin-left: 0;
 }
 .main__button {
 margin-left: 36px;
 }
+}
+@media (max-width:900px) {
+.main {
+  background-position: top 0px right 0px;
+}
+.main__title {
+  font: bold 40px/55px PT serif;
+  }
 }
 @media (max-width:768px) {
 .menu {
@@ -271,16 +318,26 @@ margin-left: 36px;
   left: 0;
 }
 }
+@media (max-width:695px) {
+  .main {
+    background-size: 45.5%;
+  }
+  .main__title {
+    margin-left: 28px;
+    font: bold 37px/47px PT serif;
+}
+}
 @media (max-width:375px) {
   .wrapper {
     margin: 0 auto;
+    width: 100%;
   }
 .menu {
   display: none;
 }
 .header {
       padding-top: 8px;
-      padding-bottom: 25px;
+      padding-bottom: 21px;
       margin-bottom: 0;
   }
 .logo {
@@ -299,7 +356,7 @@ margin-left: 36px;
   background-position: top center;
 }
 .main__title {
-  margin-top: 6px;
+  margin-top: 0px;
   margin-left: 47px;
   margin-right: auto;
   margin-bottom: 33px;
@@ -316,9 +373,8 @@ margin-left: 36px;
   font: 500 14px/16px Roboto;
   width: 209px;
   height: 44px;
-  padding-left: 14px;
-  padding-right: 14px;
-  margin-left: 22px;
+  padding: 12px 23px 14px 12px;
+  margin-left: 17px;
   margin-top: 3px;
   margin-right: 12px;
 }
