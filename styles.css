@@ -11,6 +11,12 @@
   justify-content: space-between;
   margin-bottom: 135px;
 }
+#menu__toggle {
+  opacity: 0;
+}
+.menu__box {
+  display:none;
+}
 .header:last-child {
   margin-right: 0px;
 }
@@ -330,6 +336,37 @@ margin-left: 0px;
   .main__title {
     margin-left: 28px;
     font: bold 37px/47px PT serif;
+}
+}
+@media (max-width:400px) {
+  .main {
+  text-align: center;
+  background-size: 74%;
+  background-position: top center;
+  font: bold 30px/37px PT serif;
+
+}
+.logo {
+  margin: 0 0 0 0;
+  width: 36px;
+  height: 35px;
+  background: url('image/small_logo.svg')
+  display: none;
+}
+}
+.main__title {
+    margin-left: 0px;
+    width: 372px;
+    margin-top: 15px;
+}
+.main__subtitle {
+  margin-left: 0;
+}
+.main__button {
+  margin-left: 88px:
+}
+.menu__btn {
+  left: 354px
 }
 }
 @media (max-width:375px) {
