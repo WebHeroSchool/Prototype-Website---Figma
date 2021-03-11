@@ -248,6 +248,7 @@ margin-left: 0px;
 }
 .main__subtitle {
   margin-bottom: 25px;
+
   font: 500 16px/19px Roboto;
 }
 .main__button{
@@ -279,7 +280,7 @@ margin-left: 0px;
 }
 .menu__btn > span::before {
   content: '';
-  top: -8px;
+  top: -11px;
 }
 .menu__btn > span::after {
   content: '';
