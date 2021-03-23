@@ -355,7 +355,7 @@ content: "";
     background-size: 45.5%;
   }
   .main__title {
-        font: bold 37px/47px PT serif;
+    font: bold 37px/47px PT serif;
 }
 }
 @media (max-width:400px) {
@@ -377,8 +377,6 @@ content: "";
 }
 .main__button {
   margin-left: 88px;
-}
-.menu__btn {
 }
 }
 @media (max-width:375px) {
@@ -446,15 +444,11 @@ content: "";
   background-color: #CFD8DC;
 }
 #menu__toggle:checked ~ .burger-menu {
-  transform: rotate(45deg);
 }
 #menu__toggle:checked ~ .burger-menu::before {
-  transform: rotate(45deg);
 }
 #menu__toggle:checked ~ .burger-menu::after {
-  top: 32px;
-  transform: rotate(135deg);
-}
+  }
 #menu__toggle:checked ~ .menu {
   display: flex;
   flex-direction: column;
