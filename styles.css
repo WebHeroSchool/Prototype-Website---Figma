@@ -490,3 +490,12 @@ content: "";
   transition-duration: .25s
 }
 }
+.bottom-dots {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 32px;
+  height: 8px;
+  background: url('image/dots.svg');
+}
