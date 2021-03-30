@@ -112,16 +112,12 @@ transition: opacity .5s;
   cursor: pointer;
   font-size: 20px;
 }
-.dots {
-  display: flex;
-  justify-content: center;
-}
 .bottom-dots {
-  background: blue; #С8DBFB;/* no-repeat url('image/dots.svg'); */
-  margin-right: 944px;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
+  background: no-repeat url('image/dots.svg');
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
 }
 @media (max-width:1450px) {
 .main {
