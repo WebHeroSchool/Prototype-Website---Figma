@@ -111,13 +111,19 @@ transition: opacity .5s;
   opacity: .5;
   cursor: pointer;
   font-size: 20px;
+  width:280px;
 }
 .bottom-dots {
-  background: no-repeat url('image/dots.svg');
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.bottom-dots__dot {
+  background: #C8DBFB /*no-repeat url('image/dots.svg');*/
+  margin-right: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  opacity: .7;
 }
 @media (max-width:1450px) {
 .main {
