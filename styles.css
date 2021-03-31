@@ -118,7 +118,7 @@ transition: opacity .5s;
   justify-content: center;
 }
 .bottom-dots__dot {
-  background: #C8DBFB /*no-repeat url('image/dots.svg');*/
+  background: #C8DBFB;
   margin-right: 4px;
   width: 8px;
   height: 8px;
@@ -368,6 +368,9 @@ content: "";
   top: 0;
   left: 0;
   z-index: 2;
+}
+.bottom-dots {
+  display: none;
 }
 }
 @media (max-width:695px) {
