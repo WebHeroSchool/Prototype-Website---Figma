@@ -106,6 +106,7 @@ background: #0056EC;
 text-decoration: none;
 border-radius: 4px;
 transition: opacity .5s;
+margin-bottom: 100px;
 }
 .main__button:hover {
   opacity: .5;
@@ -116,6 +117,7 @@ transition: opacity .5s;
 .bottom-dots {
   display: flex;
   justify-content: center;
+
 }
 .bottom-dots__dot {
   background: #C8DBFB;
