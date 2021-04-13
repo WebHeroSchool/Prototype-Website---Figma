@@ -78,7 +78,7 @@ background: url('image/logo.svg');
   display: none;
 }
 .main {
-  background: no-repeat url('image/frame.svg');
+  background: no-repeat url('image/Frame.svg');
   background-position: top 0px right 0px;
   padding-top: 0px;
   padding-bottom: 165px;
@@ -118,6 +118,8 @@ margin-bottom: 100px;
 .bottom-dots {
   display: flex;
   justify-content: center;
+  padding-top: 5px;
+
 
 }
 .bottom-dots__dot {
@@ -148,7 +150,7 @@ font: 15px/18px Roboto, arial, helvetica, sans-serif;
 }
 @media (max-width:1367px) {
 .header {
-  margin-bottom: 87px;
+  margin-bottom: 112px;
   padding-top: 34px;
 }
 .logo {
@@ -362,8 +364,8 @@ content: "";
   background: white;
   justify-content: center;
   align-items: center;
-  width: 106vw;
-  height: 73vh;
+  width: 100vw;
+  height: 100vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -516,7 +518,7 @@ content: "";
   padding-left: 0px;
   padding-bottom: 9px;
 }
-.menu__item_active {
+.menu__item_active::after {
   display: none;
 }
 }
